@@ -91,6 +91,10 @@
   opacity: 0.5;
 }
 
+.actionButton:disabled:hover {
+  background-color: rgb(15, 20, 25);
+}
+
 .actionButton:hover {
   background-color: rgb(39, 44, 48);
 }
@@ -112,4 +116,9 @@
 
 .closeButton:hover {
   background-color: rgba(15, 20, 25, 0.1);
+}
+
+.error {
+  font-weight: bold;
+  color: red;
 }

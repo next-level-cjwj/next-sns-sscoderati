@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type { NextPage } from "next";
+import type {NextPage} from "next";
 
 const NotFound: NextPage = () => {
   return (

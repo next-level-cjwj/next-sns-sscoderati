@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import AuthSession from "@/app/_component/AuthSession";
+import { MSWComponent } from "@/app/_component/MSWComponent";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,8 +16,11 @@ type Props = {
 };
 export default function RootLayout({ children }: Props) {
   return (
-    <html lang="ko">
-      <body className={inter.className}>{children}</body>
+    <html lang="en">
+      <body className={inter.className}>
+        <MSWComponent />
+        <AuthSession>{children}</AuthSession>
+      </body>
     </html>
   );
 }

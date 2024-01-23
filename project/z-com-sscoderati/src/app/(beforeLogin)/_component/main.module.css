@@ -1,6 +1,5 @@
 .container {
   display: flex;
-  position: relative;
   flex-direction: row;
   background-color: #fff;
   width: 100dvw;

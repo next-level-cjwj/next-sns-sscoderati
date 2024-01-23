@@ -1,13 +1,12 @@
-import type { ReactNode } from "react";
+import type {ReactNode} from "react";
 
 export default async function HomeLayout({
-  children,
-}: {
+                                           children,
+                                         }: {
   children: ReactNode;
 }) {
   return (
     <div>
-      홈 레이아웃
       {children}
     </div>
   );
